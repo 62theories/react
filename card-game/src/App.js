@@ -1,3 +1,5 @@
+import React, { Component } from 'react';
+import './App.css';
 import CharacterCard from './CharacterCard';
 class App extends Component {
  render() {
@@ -9,4 +11,4 @@ class App extends Component {
  );
  }
 }
-
+export default App;
