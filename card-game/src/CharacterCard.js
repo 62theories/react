@@ -12,6 +12,9 @@ export default class CharacterCard extends Component {
  if(!this.state.active){
  this.setState({active: true})
  }
+ else if(this.state.active){
+ this.setState({active: false})
+ }
  }
  render(){
  let className = `card ${this.state.active ? 'activeCard': ''}`
